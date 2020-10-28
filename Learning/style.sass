@@ -1,0 +1,149 @@
+$base-color: #473BF0
+$secondary-color: #0d0c1f8e
+*
+  padding: 0
+  margin: 0
+  box-sizing: 0
+
+main
+  position: relative
+  width: 100vw
+  height: 100vh
+  overflow: hidden
+  .intro
+    position: absolute
+    background: $base-color
+    height: 100vh
+    width: 100vw
+    display: flex
+    justify-content: center
+    align-items: center
+    z-index: 999
+    .circle
+      display: block
+      width: 50px
+      height: 50px
+      border-radius: 50%
+      background: white
+      position: absolute
+      top: 50%
+      left: 98.5%
+      transform: translate(-50%,-50%)
+    .textWrapper
+      display: inline-block
+      overflow: hidden
+      h1
+        color: white
+        font-size: 84px 
+        font-family: 'Bitter', sans-serif
+  .landingPage
+    height: 100vh
+    width: 100vw
+    z-index: 0
+    // background: grey
+    .nav
+      height: 15%
+      width: 100%
+      display: flex
+      justify-content: space-between
+      align-items: center
+      h1
+        color: $base-color
+        font-family: 'Palanquin Dark', sans-serif
+        font-size: 32px
+        margin-left: 5%
+      .buttonContainer
+        font-family: 'Arial', sans-serif
+        font-weight: normal
+        font-size: 18px
+        margin-right: 5%
+        .button1
+          text-decoration: none
+          color: $base-color
+          padding: 5px 30px
+        .button2
+          text-decoration: none
+          background: $base-color
+          color: white
+          padding: 10px 30px
+          border-radius: 50px
+    .main
+      height: 75%
+      width: 100%
+      // background: red
+      display: flex
+      justify-content: space-evenly
+      .left
+        width: 40%
+        margin-left: 2%
+        // background: blue
+        display: flex
+        flex-direction: column
+        justify-content: center
+        .leftButtons
+          display: flex
+          justify-content: flex-end
+        h1
+          color: $base-color
+          font-family: 'Palanquin Dark', sans-serif
+          font-weight: 600
+          font-size: 56px
+          margin-bottom: 2%
+        h3
+          font-family: 'Arial', sans-serif
+          font-weight: lighter
+          line-height: 28px
+          color: $secondary-color
+          margin-bottom: 10%
+        .leftButton1
+          font-family: 'Arial', sans-serif
+          font-weight: 400
+          font-size: 20px
+          border: 2px solid $base-color
+          padding: 10px 20px
+          color: $base-color
+          text-decoration: none
+          margin-right: 5%
+        .leftButton2
+          font-family: 'Arial', sans-serif
+          font-weight: 400
+          font-size: 20px
+          border: 2px solid $base-color
+          padding: 10px 20px
+          background: $base-color
+          color: white
+          text-decoration: none
+      .two 
+        width: 40%
+        display: flex
+        justify-content: center
+        align-items: center
+
+      .three
+        width: 5%
+        height: 40%
+        display: flex
+        flex-direction: column
+        align-items: center
+        // background: yellow
+        margin-top: 12%
+        fill: $secondary-color
+  .copyright
+    width: 100%
+    height: 10%
+    font-size: 24px
+    font-family: 'Roboto', sans-serif;
+    color: $secondary-color
+    display: flex
+    justify-content: flex-end
+    h6
+      margin-right: 5%
+    
+
+    
+
+
+// ANIMATION SECTION
+.anime1
+  display: inline-block
+  transform-origin: 0 100%

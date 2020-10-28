@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main .intro {
+  position: absolute;
+  background: #473BF0;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 999;
+}
+
+main .intro .circle {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 98.5%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .intro .textWrapper {
+  display: inline-block;
+  overflow: hidden;
+}
+
+main .intro .textWrapper h1 {
+  color: white;
+  font-size: 84px;
+  font-family: 'Bitter', sans-serif;
+}
+
+main .landingPage {
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+}
+
+main .landingPage .nav {
+  height: 15%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .landingPage .nav h1 {
+  color: #473BF0;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 32px;
+  margin-left: 5%;
+}
+
+main .landingPage .nav .buttonContainer {
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  margin-right: 5%;
+}
+
+main .landingPage .nav .buttonContainer .button1 {
+  text-decoration: none;
+  color: #473BF0;
+  padding: 5px 30px;
+}
+
+main .landingPage .nav .buttonContainer .button2 {
+  text-decoration: none;
+  background: #473BF0;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+main .landingPage .main {
+  height: 75%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .landingPage .main .left {
+  width: 40%;
+  margin-left: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .landingPage .main .left .leftButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main .landingPage .main .left h1 {
+  color: #473BF0;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 600;
+  font-size: 56px;
+  margin-bottom: 2%;
+}
+
+main .landingPage .main .left h3 {
+  font-family: 'Arial', sans-serif;
+  font-weight: lighter;
+  line-height: 28px;
+  color: #0d0c1f8e;
+  margin-bottom: 10%;
+}
+
+main .landingPage .main .left .leftButton1 {
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border: 2px solid #473BF0;
+  padding: 10px 20px;
+  color: #473BF0;
+  text-decoration: none;
+  margin-right: 5%;
+}
+
+main .landingPage .main .left .leftButton2 {
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border: 2px solid #473BF0;
+  padding: 10px 20px;
+  background: #473BF0;
+  color: white;
+  text-decoration: none;
+}
+
+main .landingPage .main .two {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .landingPage .main .three {
+  width: 5%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 12%;
+  fill: #0d0c1f8e;
+}
+
+main .copyright {
+  width: 100%;
+  height: 10%;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  color: #0d0c1f8e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main .copyright h6 {
+  margin-right: 5%;
+}
+
+.anime1 {
+  display: inline-block;
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+}
+/*# sourceMappingURL=style.css.map */
